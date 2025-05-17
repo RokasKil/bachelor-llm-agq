@@ -2,7 +2,7 @@
 Šioje repozitorije pateikiami bakalauro darbo metu surinktas duomenų rinkinys, metodikų implementacijos ir sukaupti bei įvertinti duomenys
 
 ## Failai
-1. `sources` direktorijoje stovi naudojamas duomenų rinkinys.
+1. `sources` direktorijoje yra naudojamas duomenų rinkinys.
 2. `data.xlsx` yra tyrimo metu sukaupti ir įvertinti duomenys.
 3. `generate_questionnaires_excel.py` kodas atliekantis klausimynų generavimą.
 4. `generate_answers_excel.py` kodas atliekantis pradinių atsakymų generavimą, naudojamas tik pradiniams duomenimis surinkti kurie buvo redaguoti prieš kitą žingsnį.
@@ -19,4 +19,5 @@
 2. Sukurti naują python aplinka paleidžiant `python -m venv .venv` komandą repozitorijos direktorijoje.
 3. Aktyvuoti aplinką paleidžiant `.\.venv\Scripts\activate` per powershell, kaikurios IDE gali tai padaryti automatiškai.
 4. Įrašyti naudojamas bibliotekas su `pip install -r requirements.txt` komanda.
-5. Sukurti `.env`, pagal `.env.example` ir užpildyti API raktų parametrus.
+5. Sukurti `.env` failą, pagal `.env.example` ir užpildyti API raktų parametrus.
+6. Paleisti norimą python failą su komanda `python <failo pavadinimas>`
